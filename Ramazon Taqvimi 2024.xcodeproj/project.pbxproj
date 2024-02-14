@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FC82B7D392A00332557 /* AppDelegate.swift */; };
-		7BF48FCB2B7D392A00332557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */; };
 		7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* ViewController.swift */; };
-		7BF48FD02B7D392A00332557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FCE2B7D392A00332557 /* Main.storyboard */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
 		7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF48FC82B7D392A00332557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7BF48FCC2B7D392A00332557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BF48FCF2B7D392A00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF48FD42B7D392C00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF48FD62B7D392C00332557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
-				7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */,
 				7BF48FCC2B7D392A00332557 /* ViewController.swift */,
-				7BF48FCE2B7D392A00332557 /* Main.storyboard */,
 				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
 				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */,
 				7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */,
-				7BF48FD02B7D392A00332557 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
-				7BF48FCB2B7D392A00332557 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7BF48FCE2B7D392A00332557 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BF48FCF2B7D392A00332557 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,8 +280,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,8 +308,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
