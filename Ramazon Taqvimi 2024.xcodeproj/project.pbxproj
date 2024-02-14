@@ -11,6 +11,7 @@
 		7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* ViewController.swift */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
 		7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */; };
+		B514766E2B7D410900282B2D /* DuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514766D2B7D410900282B2D /* DuaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF48FD42B7D392C00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF48FD62B7D392C00332557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B514766D2B7D410900282B2D /* DuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
 				7BF48FCC2B7D392A00332557 /* ViewController.swift */,
+				B514766D2B7D410900282B2D /* DuaViewController.swift */,
 				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
 				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
+				B514766E2B7D410900282B2D /* DuaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
