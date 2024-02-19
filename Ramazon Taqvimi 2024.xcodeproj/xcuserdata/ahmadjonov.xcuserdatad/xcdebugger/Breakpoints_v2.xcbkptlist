@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "52A8F7E9-E4F2-44D6-B577-16E3FB46166B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ramazon Taqvimi 2024/DuaViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030 - 45d1b35b6188b009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DuaViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Ramazon_Taqvimi_2024.DuaViewController"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadjonov/Desktop/Ramazon_Taqvimi_2024/Ramazon%20Taqvimi%202024/DuaViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030 - a5b952d3a516b3fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DuaViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Ramazon_Taqvimi_2024.DuaViewController"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadjonov/Desktop/Ramazon_Taqvimi_2024/Ramazon%20Taqvimi%202024/DuaViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030 - 4b72eb571b43961e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DuaViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ramazon_Taqvimi_2024.DuaViewController&gt;"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadjonov/Desktop/Ramazon_Taqvimi_2024/Ramazon%20Taqvimi%202024/DuaViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030 - ef5cb79dd3868a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DuaViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ramazon_Taqvimi_2024.DuaViewController&gt;"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadjonov/Desktop/Ramazon_Taqvimi_2024/Ramazon%20Taqvimi%202024/DuaViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C0B8E93D-25B3-41A4-9328-2F26A1713030 - dd54068ccb667af7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DuaViewController.__deallocating_deinit"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadjonov/Desktop/Ramazon_Taqvimi_2024/Ramazon%20Taqvimi%202024/DuaViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
