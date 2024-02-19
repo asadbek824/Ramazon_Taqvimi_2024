@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */; };
+		7B04ADF12B7F7C0E00589107 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF02B7F7C0E00589107 /* ProgressView.swift */; };
+		7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */; };
+		7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636542B7D62DA00606A70 /* UIColor.swift */; };
+		7BE636572B7D635300606A70 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636562B7D635300606A70 /* UIView.swift */; };
+		7BE6365A2B7D648200606A70 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636592B7D648200606A70 /* MainView.swift */; };
 		7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FC82B7D392A00332557 /* AppDelegate.swift */; };
-		7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* ViewController.swift */; };
+		7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* MainViewController.swift */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
 		7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndCloseView.swift; sourceTree = "<group>"; };
+		7B04ADF02B7F7C0E00589107 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		7BE636542B7D62DA00606A70 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7BE636562B7D635300606A70 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7BE636592B7D648200606A70 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF48FC82B7D392A00332557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BF48FCC2B7D392A00332557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF48FCC2B7D392A00332557 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF48FD42B7D392C00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF48FD62B7D392C00332557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +45,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B04ADCD2B7E98B200589107 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */,
+				7B04ADF02B7F7C0E00589107 /* ProgressView.swift */,
+				7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		7BE636502B7D627C00606A70 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7BE636582B7D646C00606A70 /* MainView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7BE636512B7D628700606A70 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7BE636522B7D629800606A70 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
+				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7BE636532B7D62C100606A70 /* Extentons */ = {
+			isa = PBXGroup;
+			children = (
+				7BE636542B7D62DA00606A70 /* UIColor.swift */,
+				7BE636562B7D635300606A70 /* UIView.swift */,
+			);
+			path = Extentons;
+			sourceTree = "<group>";
+		};
+		7BE636582B7D646C00606A70 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FCC2B7D392A00332557 /* MainViewController.swift */,
+				7BE636592B7D648200606A70 /* MainView.swift */,
+				7B04ADCD2B7E98B200589107 /* MainViews */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		7BF48FBC2B7D392A00332557 = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +118,10 @@
 		7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXGroup;
 			children = (
-				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
-				7BF48FCC2B7D392A00332557 /* ViewController.swift */,
-				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
-				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
+				7BE636512B7D628700606A70 /* AppDelegate */,
+				7BE636532B7D62C100606A70 /* Extentons */,
+				7BE636502B7D627C00606A70 /* Screens */,
+				7BE636522B7D629800606A70 /* Assets */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
 			);
 			path = "Ramazon Taqvimi 2024";
@@ -131,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */,
+				7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */,
+				7BE636572B7D635300606A70 /* UIView.swift in Sources */,
+				7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */,
+				7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */,
+				7BE6365A2B7D648200606A70 /* MainView.swift in Sources */,
+				7B04ADF12B7F7C0E00589107 /* ProgressView.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
+				7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -259,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -284,6 +356,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +385,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

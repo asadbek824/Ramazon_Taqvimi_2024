@@ -18,7 +18,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = UINavigationController(rootViewController: MainViewController())
         window?.backgroundColor = .white
         window?.makeKeyAndVisible()
         
