@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FC82B7D392A00332557 /* AppDelegate.swift */; };
-		7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* ViewController.swift */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
 		7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */; };
+		B502B45D2B7F6274005D4300 /* SettingsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502B45C2B7F6274005D4300 /* SettingsViewContoller.swift */; };
+		B502B45F2B7F62AE005D4300 /* DuaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502B45E2B7F62AE005D4300 /* DuaCell.swift */; };
+		B502B4622B7F6C97005D4300 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502B4612B7F6C97005D4300 /* UIColor.swift */; };
+		B502B4652B7F7CE1005D4300 /* DuaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502B4642B7F7CE1005D4300 /* DuaView.swift */; };
+		B502B46F2B7FB06F005D4300 /* ramazan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B502B46E2B7FB06F005D4300 /* ramazan.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF48FC82B7D392A00332557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BF48FCC2B7D392A00332557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF48FD42B7D392C00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF48FD62B7D392C00332557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B502B45C2B7F6274005D4300 /* SettingsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewContoller.swift; sourceTree = "<group>"; };
+		B502B45E2B7F62AE005D4300 /* DuaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaCell.swift; sourceTree = "<group>"; };
+		B502B4612B7F6C97005D4300 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B502B4642B7F7CE1005D4300 /* DuaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaView.swift; sourceTree = "<group>"; };
+		B502B46E2B7FB06F005D4300 /* ramazan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ramazan.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +60,41 @@
 		7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXGroup;
 			children = (
-				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
-				7BF48FCC2B7D392A00332557 /* ViewController.swift */,
+				B502B4702B7FB111005D4300 /* Delegate */,
+				B502B4602B7F6C7D005D4300 /* ExtensionColor */,
+				B502B45B2B7F6258005D4300 /* DuaOchishYopish */,
 				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
 				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
+				B502B45C2B7F6274005D4300 /* SettingsViewContoller.swift */,
 			);
 			path = "Ramazon Taqvimi 2024";
+			sourceTree = "<group>";
+		};
+		B502B45B2B7F6258005D4300 /* DuaOchishYopish */ = {
+			isa = PBXGroup;
+			children = (
+				B502B4642B7F7CE1005D4300 /* DuaView.swift */,
+				B502B45E2B7F62AE005D4300 /* DuaCell.swift */,
+				B502B46E2B7FB06F005D4300 /* ramazan.m4a */,
+			);
+			path = DuaOchishYopish;
+			sourceTree = "<group>";
+		};
+		B502B4602B7F6C7D005D4300 /* ExtensionColor */ = {
+			isa = PBXGroup;
+			children = (
+				B502B4612B7F6C97005D4300 /* UIColor.swift */,
+			);
+			path = ExtensionColor;
+			sourceTree = "<group>";
+		};
+		B502B4702B7FB111005D4300 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +157,7 @@
 			files = (
 				7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */,
 				7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */,
+				B502B46F2B7FB06F005D4300 /* ramazan.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */,
+				B502B4652B7F7CE1005D4300 /* DuaView.swift in Sources */,
+				B502B45F2B7F62AE005D4300 /* DuaCell.swift in Sources */,
+				B502B4622B7F6C97005D4300 /* UIColor.swift in Sources */,
+				B502B45D2B7F6274005D4300 /* SettingsViewContoller.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -259,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,9 +314,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				DEVELOPMENT_TEAM = T6X5LU6744;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -291,6 +332,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,9 +344,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				DEVELOPMENT_TEAM = T6X5LU6744;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +362,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
