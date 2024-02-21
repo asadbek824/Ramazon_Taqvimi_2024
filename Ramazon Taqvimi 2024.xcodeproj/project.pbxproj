@@ -10,6 +10,7 @@
 		7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */; };
 		7B04ADF12B7F7C0E00589107 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF02B7F7C0E00589107 /* ProgressView.swift */; };
 		7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */; };
+		7B1773272B85CBF9007C6F4B /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */; };
 		7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636542B7D62DA00606A70 /* UIColor.swift */; };
 		7BE636572B7D635300606A70 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636562B7D635300606A70 /* UIView.swift */; };
 		7BE6365A2B7D648200606A70 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636592B7D648200606A70 /* MainView.swift */; };
@@ -23,6 +24,7 @@
 		7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndCloseView.swift; sourceTree = "<group>"; };
 		7B04ADF02B7F7C0E00589107 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		7BE636542B7D62DA00606A70 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		7BE636562B7D635300606A70 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		7BE636592B7D648200606A70 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */,
 				7B04ADF02B7F7C0E00589107 /* ProgressView.swift */,
 				7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */,
+				7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */,
+				7B1773272B85CBF9007C6F4B /* CircularProgressView.swift in Sources */,
 				7BE636572B7D635300606A70 /* UIView.swift in Sources */,
 				7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */,
 				7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */,

@@ -14,6 +14,20 @@ final class ProgressView: UIView {
         
         backgroundColor = .white
         
+        let circularProgressView = CircularProgressView(frame: CGRect(
+            x: 0,
+            y: 5,
+            width: 150,
+            height: 150
+        ), lineWidth: 15, rounded: true)
+        
+        circularProgressView.progressColor = UIColor.red
+        circularProgressView.trackColor = UIColor.green
+        
+        addSubview(circularProgressView)
+        
+        circularProgressView.setProgress(duration: 10, to: 1.0)
+        
         layer.cornerRadius = 16
     }
     

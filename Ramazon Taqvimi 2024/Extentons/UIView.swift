@@ -85,9 +85,9 @@ extension UIView {
         view.addSubview(timeLabel)
         
         timeLabel.setConstraint(.yCenter, from: view, 0)
-        timeLabel.leadingAnchor.constraint(
-            equalTo: titleLabel.trailingAnchor,
-            constant: 8
+        timeLabel.trailingAnchor.constraint(
+            equalTo: view.trailingAnchor,
+            constant: -24
         ).isActive = true
         
         return view
