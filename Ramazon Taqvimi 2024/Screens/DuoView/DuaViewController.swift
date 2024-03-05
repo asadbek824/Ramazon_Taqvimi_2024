@@ -1,5 +1,5 @@
 //
-//  DuoViewController.swift
+//  DuaViewController.swift
 //  Ramazon Taqvimi 2024
 //
 //  Created by Asadbek Yoldoshev on 22/02/24.
@@ -97,7 +97,7 @@ extension DuaViewController: UITableViewDelegate, UITableViewDataSource {
         } else if indexPath.row == 2 {
             return 70
         } else {
-            return 460
+            return 470
         }
     }
 }

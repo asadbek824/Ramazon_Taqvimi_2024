@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  TasbehViewController.swift
 //  Ramazon Taqvimi 2024
 //
 //  Created by islombek on 21/02/24.
@@ -7,33 +7,44 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    var counter: Int = 0
-    var bigTotal: Int = 0
+final class TasbehViewController: UIViewController {
     
-    let counterLabel: UILabel = {
+    private var counter: Int = 0
+    private var bigTotal: Int = 0
+    
+    //MARK: - UIElements
+    private let counterLabel: UILabel = {
+        
         let label = UILabel()
+        
         label.textAlignment = .center
         label.textColor = .appColor.countcolor
         label.font = UIFont.boldSystemFont(ofSize: 100)
         label.translatesAutoresizingMaskIntoConstraints = false
+        
         return label
     }()
     
-    let bigTotalLabel: UILabel = {
+    private let bigTotalLabel: UILabel = {
+        
         let label = UILabel()
+        
         label.textAlignment = .center
         label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 25)
         label.translatesAutoresizingMaskIntoConstraints = false
+        
         return label
     }()
     
-    let countButton: UIButton = {
+    private lazy var countButton: UIButton = {
+        
         let button = UIButton(type: .system)
+        
         button.titleLabel?.font = UIFont.systemFont(ofSize: 40)
 
         let counterImage = UIImage(named: "Counter")?.withRenderingMode(.alwaysOriginal)
+        
         button.setImage(counterImage, for: .normal)
         button.tintColor = .appColor.countcolor
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -42,45 +53,75 @@ class ViewController: UIViewController {
         return button
     }()
 
-    
-    let restartButton: UIButton = {
+    private lazy var restartButton: UIButton = {
+        
         let button = UIButton(type: .system)
+        
         button.titleLabel?.font = UIFont.systemFont(ofSize: 24)
         button.setTitle("Restart", for: .normal)
-        button.tintColor = .white
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(restartButtonTapped), for: .touchUpInside)
+        
         return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpNavBar()
         setupBackgroundImage()
         setUpelements()
         setupConstraints()
         updateLabels()
     }
+    
+    @objc private func leftBarButtonTapped() {
+        
+        navigationController?.popViewController(animated: true)
+    }
 }
 
-//MARK: setUpelements, setupBackgroundImage, setupConstraints
-extension ViewController {
+//MARK: - setUpelements, setupBackgroundImage, setupConstraints
+extension TasbehViewController {
     // functions
-    func setUpelements() {
+    
+    private func setUpNavBar() {
+        
+        title = "Tasbeh"
+        
+        let leftBarButton = UIBarButtonItem(
+            image: UIImage(systemName: "chevron.left"),
+            style: .plain,
+            target: self,
+            action: #selector(leftBarButtonTapped)
+        )
+        
+        leftBarButton.tintColor = .black
+        navigationItem.leftBarButtonItem = leftBarButton
+    }
+    
+    private func setUpelements() {
+        
         view.addSubview(countButton)
         view.addSubview(restartButton)
         view.addSubview(counterLabel)
         view.addSubview(bigTotalLabel)
     }
     
-    func setupBackgroundImage() {
+    private func setupBackgroundImage() {
+        
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "ramadanback")
+        
+        backgroundImage.image = UIImage(named: "ramadanPicture")
         backgroundImage.contentMode = .scaleAspectFill
+        
         view.addSubview(backgroundImage)
         view.sendSubviewToBack(backgroundImage)
     }
     
-    func setupConstraints() {
+    private func setupConstraints() {
+        
         NSLayoutConstraint.activate([
             counterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             counterLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 300),
@@ -97,15 +138,17 @@ extension ViewController {
     }
 }
 
-//MARK: Counter logic
-extension ViewController {
+//MARK: - Counter logic
+extension TasbehViewController {
     
-    func updateLabels() {
+    private func updateLabels() {
+        
         counterLabel.text = "\(counter)"
         bigTotalLabel.text = "Big Total: \(bigTotal)"
     }
     
-    @objc func countButtonTapped() {
+    @objc private func countButtonTapped() {
+        
         counter += 1
         
         if counter == 34 {
@@ -116,7 +159,7 @@ extension ViewController {
         updateLabels()
     }
     
-    @objc func restartButtonTapped() {
+    @objc private func restartButtonTapped() {
         counter = 0
         bigTotal = 0
         updateLabels()

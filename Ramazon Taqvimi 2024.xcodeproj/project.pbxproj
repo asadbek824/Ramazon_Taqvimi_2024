@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */; };
-		7B04ADF12B7F7C0E00589107 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF02B7F7C0E00589107 /* ProgressView.swift */; };
-		7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */; };
-		7B1773272B85CBF9007C6F4B /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */; };
+		7B04ADF32B7F807C00589107 /* NamozVaqtlariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADF22B7F807C00589107 /* NamozVaqtlariModel.swift */; };
+		7B468E4C2B93934F00FE3E67 /* PrayTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */; };
+		7B468E592B966C6F00FE3E67 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */; };
+		7B87D5642B921E9B001936C7 /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87D5632B921E9B001936C7 /* PrayerTime.swift */; };
+		7B9F41A42B87BD2300AD3E31 /* DuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F41A32B87BD2300AD3E31 /* DuaViewController.swift */; };
+		7BDD8FAE2B8E4446002C7851 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BDD8FAD2B8E4446002C7851 /* 11.mp3 */; };
 		7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636542B7D62DA00606A70 /* UIColor.swift */; };
 		7BE636572B7D635300606A70 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636562B7D635300606A70 /* UIView.swift */; };
 		7BE6365A2B7D648200606A70 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636592B7D648200606A70 /* MainView.swift */; };
+		7BEC83BD2B8A630A00EBE1CA /* DuaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC83BC2B8A630900EBE1CA /* DuaCell.swift */; };
+		7BEC83C72B8A7BEF00EBE1CA /* TasbehViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */; };
 		7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FC82B7D392A00332557 /* AppDelegate.swift */; };
 		7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* MainViewController.swift */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
@@ -22,13 +27,19 @@
 
 /* Begin PBXFileReference section */
 		7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndCloseView.swift; sourceTree = "<group>"; };
-		7B04ADF02B7F7C0E00589107 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
-		7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
-		7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7B04ADF22B7F807C00589107 /* NamozVaqtlariModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamozVaqtlariModel.swift; sourceTree = "<group>"; };
+		7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayTimeView.swift; sourceTree = "<group>"; };
+		7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7B87D5632B921E9B001936C7 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		7B9F41A32B87BD2300AD3E31 /* DuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaViewController.swift; sourceTree = "<group>"; };
+		7BDD8FAD2B8E4446002C7851 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 11.mp3; path = ../../../../11.mp3; sourceTree = "<group>"; };
+		7BDD8FAF2B8E4451002C7851 /* 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 22.mp3; path = ../../../../22.mp3; sourceTree = "<group>"; };
 		7BE636542B7D62DA00606A70 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		7BE636562B7D635300606A70 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		7BE636592B7D648200606A70 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEC83BC2B8A630900EBE1CA /* DuaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DuaCell.swift; path = "../../../../../Downloads/DuaOchishYopish 2/DuaCell.swift"; sourceTree = "<group>"; };
+		7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasbehViewController.swift; sourceTree = "<group>"; };
 		7BF48FC82B7D392A00332557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF48FCC2B7D392A00332557 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,17 +62,43 @@
 			isa = PBXGroup;
 			children = (
 				7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */,
-				7B04ADF02B7F7C0E00589107 /* ProgressView.swift */,
-				7B04ADF22B7F807C00589107 /* PrayerTimesView.swift */,
-				7B1773262B85CBF9007C6F4B /* CircularProgressView.swift */,
+				7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */,
+				7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */,
 			);
 			path = MainViews;
+			sourceTree = "<group>";
+		};
+		7B468E4F2B93A26100FE3E67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B87D5602B921E5E001936C7 /* PrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				7B87D5632B921E9B001936C7 /* PrayerTime.swift */,
+			);
+			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		7B9F41A22B87BCF200AD3E31 /* DuoView */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC83BC2B8A630900EBE1CA /* DuaCell.swift */,
+				7B9F41A32B87BD2300AD3E31 /* DuaViewController.swift */,
+				7BDD8FAD2B8E4446002C7851 /* 11.mp3 */,
+				7BDD8FAF2B8E4451002C7851 /* 22.mp3 */,
+			);
+			path = DuoView;
 			sourceTree = "<group>";
 		};
 		7BE636502B7D627C00606A70 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				7BE636582B7D646C00606A70 /* MainView */,
+				7B9F41A22B87BCF200AD3E31 /* DuoView */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -98,32 +135,36 @@
 				7BF48FCC2B7D392A00332557 /* MainViewController.swift */,
 				7BE636592B7D648200606A70 /* MainView.swift */,
 				7B04ADCD2B7E98B200589107 /* MainViews */,
+				7BEC83C22B8A795300EBE1CA /* TasbehView */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		7BEC83C22B8A795300EBE1CA /* TasbehView */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */,
+			);
+			path = TasbehView;
 			sourceTree = "<group>";
 		};
 		7BF48FBC2B7D392A00332557 = {
 			isa = PBXGroup;
 			children = (
 				7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */,
-				7BF48FC62B7D392A00332557 /* Products */,
+				7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */,
 			);
-			sourceTree = "<group>";
-		};
-		7BF48FC62B7D392A00332557 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXGroup;
 			children = (
+				7B468E4F2B93A26100FE3E67 /* Models */,
+				7B04ADF22B7F807C00589107 /* NamozVaqtlariModel.swift */,
 				7BE636512B7D628700606A70 /* AppDelegate */,
 				7BE636532B7D62C100606A70 /* Extentons */,
 				7BE636502B7D627C00606A70 /* Screens */,
+				7B87D5602B921E5E001936C7 /* PrayerTimes */,
 				7BE636522B7D629800606A70 /* Assets */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
 			);
@@ -132,11 +173,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7B47A5B02B890C3C00B3B159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7BF48FC42B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF48FD92B7D392C00332557 /* Build configuration list for PBXNativeTarget "Ramazon Taqvimi 2024" */;
 			buildPhases = (
+				7B47A5B02B890C3C00B3B159 /* Headers */,
 				7BF48FC12B7D392A00332557 /* Sources */,
 				7BF48FC22B7D392A00332557 /* Frameworks */,
 				7BF48FC32B7D392A00332557 /* Resources */,
@@ -147,7 +199,7 @@
 			);
 			name = "Ramazon Taqvimi 2024";
 			productName = "Ramazon Taqvimi 2024";
-			productReference = 7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */;
+			productReference = 7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +226,7 @@
 				Base,
 			);
 			mainGroup = 7BF48FBC2B7D392A00332557;
-			productRefGroup = 7BF48FC62B7D392A00332557 /* Products */;
+			productRefGroup = 7BF48FBC2B7D392A00332557;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -189,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */,
+				7BDD8FAE2B8E4446002C7851 /* 11.mp3 in Resources */,
 				7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,15 +253,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B04ADF32B7F807C00589107 /* PrayerTimesView.swift in Sources */,
-				7B1773272B85CBF9007C6F4B /* CircularProgressView.swift in Sources */,
+				7B04ADF32B7F807C00589107 /* NamozVaqtlariModel.swift in Sources */,
+				7B468E4C2B93934F00FE3E67 /* PrayTimeView.swift in Sources */,
 				7BE636572B7D635300606A70 /* UIView.swift in Sources */,
 				7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */,
 				7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */,
+				7B9F41A42B87BD2300AD3E31 /* DuaViewController.swift in Sources */,
 				7BE6365A2B7D648200606A70 /* MainView.swift in Sources */,
-				7B04ADF12B7F7C0E00589107 /* ProgressView.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
+				7B87D5642B921E9B001936C7 /* PrayerTime.swift in Sources */,
+				7BEC83BD2B8A630A00EBE1CA /* DuaCell.swift in Sources */,
+				7B468E592B966C6F00FE3E67 /* CircularProgressView.swift in Sources */,
 				7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */,
+				7BEC83C72B8A7BEF00EBE1CA /* TasbehViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -360,13 +418,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
+				PRODUCT_BUNDLE_IDENTIFIER = AssA.AssA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -382,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -389,13 +448,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
+				PRODUCT_BUNDLE_IDENTIFIER = AssA.AssA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

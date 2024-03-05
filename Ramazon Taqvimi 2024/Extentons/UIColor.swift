@@ -23,4 +23,10 @@ struct AppColor {
     let primary: UIColor = .rgb(193, 202, 171)
     let textColor: UIColor = .rgb(0, 100, 0)
     let timerColor: UIColor = .rgb(222, 248, 150)
+    let navigatioColor: UIColor = .rgb(100, 114, 97)
+    let tabBarColor: UIColor = .rgb(100, 114, 97)
+    let tabBarTintColor: UIColor = .rgb(28, 69, 18)
+    let navigationBarTintColor: UIColor = .rgb(0, 51, 0)
+    let arablabel: UIColor = .rgb(0, 35, 119)
+    let countcolor: UIColor = .rgb(177, 199, 148)
 }
