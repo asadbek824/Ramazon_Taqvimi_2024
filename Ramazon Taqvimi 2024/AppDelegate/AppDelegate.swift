@@ -25,6 +25,14 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
             tag: 1
         )
         
+        let daysView = UINavigationController(rootViewController: DaysViewController())
+        
+        daysView.tabBarItem = UITabBarItem(
+            title: "Taqvim",
+            image: UIImage(named: "calendarIcon"),
+            tag: 1
+        )
+        
         let duoView = UINavigationController(rootViewController: DuaViewController())
         
         duoView.tabBarItem = UITabBarItem(
@@ -34,7 +42,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         )
                 
         let tabBarVC = UITabBarController()
-        tabBarVC.viewControllers = [mainView, duoView]
+        
+        tabBarVC.viewControllers = [mainView, daysView, duoView]
         tabBarVC.selectedIndex = 0
         tabBarVC.tabBar.tintColor = .appColor.tabBarTintColor
         

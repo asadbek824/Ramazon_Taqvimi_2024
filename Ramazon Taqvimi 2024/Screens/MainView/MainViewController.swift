@@ -21,14 +21,15 @@ final class MainViewController: UIViewController {
     private var coordinate: CLLocationCoordinate2D?
     private let currentDate = Date()
     
-    private var fastingTime = 0
-    private var notFastingTime = 0
+    private var fastingTime = 0.0
+    private var notFastingTime = 0.0
     private var currentTime = 0
     private var saharlikSecond = 0
     private var iftorlikSecond = 0
     private let daylySecond: Int = 86400
     
     private var locationManager: CLLocationManager?
+    
     
     override func loadView() {
         super.loadView()
@@ -40,6 +41,12 @@ final class MainViewController: UIViewController {
         
         view = mainView
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        locationManager?.requestWhenInUseAuthorization()
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,11 +85,10 @@ final class MainViewController: UIViewController {
         let saxarlikString = formatedTimes[NamozVaqtlari.ogizYopish.rawValue]
         let iftorlikString = formatedTimes[NamozVaqtlari.shom.rawValue]
          
-        fastingTime = iftorlikSecond - saharlikSecond
-        notFastingTime = daylySecond - (iftorlikSecond - saharlikSecond)
+        fastingTime = Double(iftorlikSecond - saharlikSecond)
+        notFastingTime = Double(daylySecond - (iftorlikSecond - saharlikSecond))
         
         mainView.openAndCloseView.updateTimes(iftorlikString, saxarlikString)
-//        mainView.circularProgressView.animateProgress(duration: notFastingTime)
         
         let calendar = Calendar.current
 
@@ -95,36 +101,39 @@ final class MainViewController: UIViewController {
         }
         
         if currentTime >= saharlikSecond, currentTime <= iftorlikSecond {
+            
+            let duration = Double(iftorlikSecond - currentTime)
+            
+            let fromValue = 1 - (duration / fastingTime)
+            
             mainView.circularProgressView.openAndCloseLabel.text = "Og'iz \nochishgacha"
-            mainView.circularProgressView.animateProgress(duration: Double(fastingTime), fromValue: 0.0)
+            mainView.circularProgressView.animateProgress(
+                duration: duration,
+                fromValue: fromValue
+            )
+            
         } else if currentTime >= iftorlikSecond {
             
-            let duration = daylySecond - currentTime + saharlikSecond
+            let duration = Double(daylySecond - currentTime + saharlikSecond)
             
-            let onePercent = notFastingTime / 100
-//            let fromValue = duration
-            print(duration, onePercent)
+            let fromValue = 1 - (duration / notFastingTime)
             
             mainView.circularProgressView.openAndCloseLabel.text = "Og'iz \nyopishgacha"
             mainView.circularProgressView.animateProgress(
                 duration: Double(duration),
-                fromValue: Double(duration / notFastingTime)
+                fromValue: fromValue
             )
         } else {
             
-            let duration: Double = Double(saharlikSecond - currentTime)
+            let duration = Double(saharlikSecond - currentTime)
             
-            
-            let onePercent: Double = Double(notFastingTime) / 100
-            let fromValue = (duration / onePercent) / 100
-            print(duration, onePercent)
+            let fromValue = 1 - (duration / notFastingTime)
             
             mainView.circularProgressView.openAndCloseLabel.text = "Og'iz \nyopishgacha"
             mainView.circularProgressView.animateProgress(
                 duration: duration,
                 fromValue: Double(fromValue)
             )
-            print(fromValue)
         }
         
     }
@@ -164,7 +173,17 @@ extension MainViewController: CLLocationManagerDelegate {
     _ manager: CLLocationManager,
     didChangeAuthorization status: CLAuthorizationStatus
     ) {
-        if status == .authorizedWhenInUse, let coordinate = manager.location?.coordinate {
+        if status == .denied || status == .restricted || status == .notDetermined {
+            mainView.progressStackView.isHidden = true
+            mainView.prayerTimesView.isHidden = true
+            mainView.alert.addAction(mainView.settingsAction)
+            present(mainView.alert, animated: true)
+        }
+        if let coordinate = manager.location?.coordinate {
+            mainView.alert.dismiss(animated: true)
+            mainView.progressStackView.isHidden = false
+            mainView.prayerTimesView.isHidden = false
+            
             let prayerTimes = PrayerTime()
             let components = Calendar.current.dateComponents([.day, .month], from: Date())
             
@@ -173,7 +192,12 @@ extension MainViewController: CLLocationManagerDelegate {
                 month: components.month ?? 3,
                 day: components.day ?? 1
             ).map { formatTime($0) }
+            
+            NamozVaqtlarManager.shared.setNamozVaqtlari(times: times)
+            NamozVaqtlarManager.shared.setCoordinate(coordinate)
+            
             self.coordinate = coordinate
+            
             mainView.setUpPrayerViews(prayerTimes: times)
             
             setupRamadanTime()

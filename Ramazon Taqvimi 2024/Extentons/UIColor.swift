@@ -29,4 +29,7 @@ struct AppColor {
     let navigationBarTintColor: UIColor = .rgb(0, 51, 0)
     let arablabel: UIColor = .rgb(0, 35, 119)
     let countcolor: UIColor = .rgb(177, 199, 148)
+    let restart: UIColor = .rgb(29, 52, 33)
+    static let countcolor = UIColor(red: 0.0, green: 0.5, blue: 1.0, alpha: 1.0)
+    static let restart = UIColor(red: 1.0, green: 0.2, blue: 0.2, alpha: 1.0)
 }

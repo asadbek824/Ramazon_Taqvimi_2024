@@ -12,14 +12,31 @@ final class MainView: UIView {
     //MARK: - UIElements
     private let scrollView = UIScrollView()
     private let stackView = UIStackView()
-    private let progressStackView = UIStackView()
+    let progressStackView = UIStackView()
     let openAndCloseView = OpenAndCloseView()
-    private let prayerTimesView = UIStackView()
+    let prayerTimesView = UIStackView()
     let circularProgressView = CircularProgressView(
         frame: CGRect(x: 0, y: 0, width: 130, height: 130),
         lineWidth: 8,
         rounded: true
     )
+    
+    let alert = UIAlertController(
+        title: "Ilova ishlashi uchun joylashuvga ruxsat bering",
+        message: "Iltimos ilovamiz ishlashi uchun joylashuv sozlamalariga ruxsat bering",
+        preferredStyle: .alert
+    )
+    
+    let settingsAction = UIAlertAction(title: "Sozlamalarga o'tish", style: .default) { (_) -> Void in
+
+            guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+                return
+            }
+
+            if UIApplication.shared.canOpenURL(settingsUrl) {
+                UIApplication.shared.open(settingsUrl)
+            }
+        }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -130,6 +147,7 @@ extension MainView {
     }
     
     private func setUpPrayerTimesView() {
+        let height: CGFloat = CGFloat(70 * (NamozVaqtlari.allCases.count + 1))
         
         stackView.addArrangedSubview(prayerTimesView)
         
@@ -137,13 +155,16 @@ extension MainView {
         prayerTimesView.spacing = 8
         prayerTimesView.layoutMargins = .init(top: 16, left: 16, bottom: 16, right: 16)
         prayerTimesView.isLayoutMarginsRelativeArrangement = true
+        prayerTimesView.setConstraint(.height, from: self, height)
         
         prayerTimesView.setConstraint(.width, from: stackView, UIScreen.main.bounds.width)
     }
     
     func setUpPrayerViews(prayerTimes: [String]) {
         NamozVaqtlari.allCases.forEach {
-            prayerTimesView.addArrangedSubview(PrayTimeView(type: $0, prayerTimes: prayerTimes))
+            let prayerTimeView = PrayTimeView(type: $0, prayerTimes: prayerTimes)
+            prayerTimeView.setConstraint(.height, from: self, 70)
+            prayerTimesView.addArrangedSubview(prayerTimeView)
         }
     }
 }

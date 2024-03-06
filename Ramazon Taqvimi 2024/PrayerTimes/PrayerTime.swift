@@ -514,10 +514,6 @@ class PrayerTime {
     
     func main(coordinate: CLLocationCoordinate2D, month: Int, day: Int) -> [Double] {
         
-        let currentDate = Date()
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.year, .month, .day], from: currentDate)
-        
         return calculateSalahTimes(
             year: 2024,
             month: month,
@@ -531,8 +527,6 @@ class PrayerTime {
             ishaAngle: 15.0
         )
     }
-    
-    
 }
 
 struct SunPosition {
