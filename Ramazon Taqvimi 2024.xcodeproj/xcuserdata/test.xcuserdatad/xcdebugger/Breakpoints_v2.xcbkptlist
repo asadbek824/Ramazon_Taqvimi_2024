@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4152C6B9-5299-4CDA-9FEF-5146263F736E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD4FDF70-0151-49D7-A180-55291BB5956B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ramazon Taqvimi 2024/Screens/DaysViewcontroller/DaysViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "getTime(indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD4FDF70-0151-49D7-A180-55291BB5956B - 424c4d6c01bd0090"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DaysViewController.getTime(indexPath: Foundation.IndexPath) -&gt; (Swift.String, Swift.String)"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Downloads/Ramazon%20Taqvimi%202024/Ramazon%20Taqvimi%202024/Screens/DaysViewcontroller/DaysViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1848">
+               </Location>
+               <Location
+                  uuid = "BD4FDF70-0151-49D7-A180-55291BB5956B - 424c4d6c01bd00b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ramazon_Taqvimi_2024.DaysViewController.getTime(indexPath: Foundation.IndexPath) -&gt; (Swift.String, Swift.String)"
+                  moduleName = "Ramazon Taqvimi 2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Downloads/Ramazon%20Taqvimi%202024/Ramazon%20Taqvimi%202024/Screens/DaysViewcontroller/DaysViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

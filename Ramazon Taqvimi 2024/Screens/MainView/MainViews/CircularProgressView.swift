@@ -142,9 +142,6 @@ class CircularProgressView: UIView {
         animation.fillMode = .forwards
         animation.isRemovedOnCompletion = false
         
-        print(duration)
-        print(fromValue)
-        
         // Update time label
         remainingTime = TimeInterval(duration)
         updateTimeLabel()

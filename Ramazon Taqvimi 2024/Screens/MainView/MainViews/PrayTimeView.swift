@@ -32,6 +32,7 @@ final class PrayTimeView: UIStackView {
         
         imageView.setConstraint(.width, from: self, 50)
         imageView.setConstraint(.height, from: self, 50)
+        imageView.tintColor = .appColor.textColor
                 
         prayTimeLabel.setConstraint(.width, from: self, 50)
         
