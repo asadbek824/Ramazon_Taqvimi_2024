@@ -436,9 +436,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ramazon Taqvimi";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "need location";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = nedd;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "I need your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -470,9 +467,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ramazon Taqvimi";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "need location";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = nedd;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "I need your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
