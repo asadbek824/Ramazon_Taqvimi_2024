@@ -7,20 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A025E42B98B58B00ECCDED /* NamozVaqtlariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A025E32B98B58B00ECCDED /* NamozVaqtlariModel.swift */; };
+		52A025E62B98B5D100ECCDED /* DuaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A025E52B98B5D100ECCDED /* DuaCell.swift */; };
+		52A025E82B98B5D700ECCDED /* DuaViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A025E72B98B5D700ECCDED /* DuaViewConroller.swift */; };
+		52A025EB2B98B6A700ECCDED /* Ochish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A025E92B98B6A700ECCDED /* Ochish.mp3 */; };
+		52A025EC2B98B6A700ECCDED /* Yopish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A025EA2B98B6A700ECCDED /* Yopish.mp3 */; };
+		7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */; };
+		7B468E4C2B93934F00FE3E67 /* PrayTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */; };
+		7B468E592B966C6F00FE3E67 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */; };
+		7B87D5642B921E9B001936C7 /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87D5632B921E9B001936C7 /* PrayerTime.swift */; };
+		7B9F0DFB2B983DF6006E5D53 /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0DFA2B983DF6006E5D53 /* DaysViewController.swift */; };
+		7B9F0DFD2B983E1A006E5D53 /* DaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0DFC2B983E1A006E5D53 /* DaysCell.swift */; };
+		7B9F0DFF2B983E34006E5D53 /* DaysHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0DFE2B983E34006E5D53 /* DaysHeader.swift */; };
+		7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636542B7D62DA00606A70 /* UIColor.swift */; };
+		7BE636572B7D635300606A70 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636562B7D635300606A70 /* UIView.swift */; };
+		7BE6365A2B7D648200606A70 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE636592B7D648200606A70 /* MainView.swift */; };
+		7BEC83C72B8A7BEF00EBE1CA /* TasbehViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */; };
 		7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FC82B7D392A00332557 /* AppDelegate.swift */; };
-		7BF48FCB2B7D392A00332557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */; };
-		7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* ViewController.swift */; };
-		7BF48FD02B7D392A00332557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FCE2B7D392A00332557 /* Main.storyboard */; };
+		7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48FCC2B7D392A00332557 /* MainViewController.swift */; };
 		7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD12B7D392C00332557 /* Assets.xcassets */; };
 		7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A025E32B98B58B00ECCDED /* NamozVaqtlariModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamozVaqtlariModel.swift; sourceTree = "<group>"; };
+		52A025E52B98B5D100ECCDED /* DuaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuaCell.swift; sourceTree = "<group>"; };
+		52A025E72B98B5D700ECCDED /* DuaViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuaViewConroller.swift; sourceTree = "<group>"; };
+		52A025E92B98B6A700ECCDED /* Ochish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ochish.mp3; sourceTree = "<group>"; };
+		52A025EA2B98B6A700ECCDED /* Yopish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yopish.mp3; sourceTree = "<group>"; };
+		7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndCloseView.swift; sourceTree = "<group>"; };
+		7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramazon Taqvimi 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayTimeView.swift; sourceTree = "<group>"; };
+		7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7B87D5632B921E9B001936C7 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		7B9F0DFA2B983DF6006E5D53 /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		7B9F0DFC2B983E1A006E5D53 /* DaysCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCell.swift; sourceTree = "<group>"; };
+		7B9F0DFE2B983E34006E5D53 /* DaysHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysHeader.swift; sourceTree = "<group>"; };
+		7BE636542B7D62DA00606A70 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7BE636562B7D635300606A70 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7BE636592B7D648200606A70 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasbehViewController.swift; sourceTree = "<group>"; };
 		7BF48FC82B7D392A00332557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7BF48FCC2B7D392A00332557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BF48FCF2B7D392A00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF48FCC2B7D392A00332557 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BF48FD12B7D392C00332557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF48FD42B7D392C00332557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF48FD62B7D392C00332557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,31 +65,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52A025E22B98B57500ECCDED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52A025E32B98B58B00ECCDED /* NamozVaqtlariModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B04ADCD2B7E98B200589107 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				7B04ADCE2B7E98D500589107 /* OpenAndCloseView.swift */,
+				7B468E4B2B93934F00FE3E67 /* PrayTimeView.swift */,
+				7B468E582B966C6F00FE3E67 /* CircularProgressView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		7B87D5602B921E5E001936C7 /* PrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				7B87D5632B921E9B001936C7 /* PrayerTime.swift */,
+			);
+			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		7B9F0DF92B983DE3006E5D53 /* DaysViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				7B9F0DFA2B983DF6006E5D53 /* DaysViewController.swift */,
+				7B9F0DFC2B983E1A006E5D53 /* DaysCell.swift */,
+				7B9F0DFE2B983E34006E5D53 /* DaysHeader.swift */,
+			);
+			path = DaysViewcontroller;
+			sourceTree = "<group>";
+		};
+		7B9F41A22B87BCF200AD3E31 /* DuoView */ = {
+			isa = PBXGroup;
+			children = (
+				52A025E52B98B5D100ECCDED /* DuaCell.swift */,
+				52A025E72B98B5D700ECCDED /* DuaViewConroller.swift */,
+			);
+			path = DuoView;
+			sourceTree = "<group>";
+		};
+		7BE636502B7D627C00606A70 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7BE636582B7D646C00606A70 /* MainView */,
+				7B9F0DF92B983DE3006E5D53 /* DaysViewcontroller */,
+				7B9F41A22B87BCF200AD3E31 /* DuoView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7BE636512B7D628700606A70 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7BE636522B7D629800606A70 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
+				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7BE636532B7D62C100606A70 /* Extentons */ = {
+			isa = PBXGroup;
+			children = (
+				7BE636542B7D62DA00606A70 /* UIColor.swift */,
+				7BE636562B7D635300606A70 /* UIView.swift */,
+			);
+			path = Extentons;
+			sourceTree = "<group>";
+		};
+		7BE636582B7D646C00606A70 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48FCC2B7D392A00332557 /* MainViewController.swift */,
+				7BE636592B7D648200606A70 /* MainView.swift */,
+				7B04ADCD2B7E98B200589107 /* MainViews */,
+				7BEC83C22B8A795300EBE1CA /* TasbehView */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		7BEC83C22B8A795300EBE1CA /* TasbehView */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC83C62B8A7BEF00EBE1CA /* TasbehViewController.swift */,
+			);
+			path = TasbehView;
+			sourceTree = "<group>";
+		};
 		7BF48FBC2B7D392A00332557 = {
 			isa = PBXGroup;
 			children = (
 				7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */,
-				7BF48FC62B7D392A00332557 /* Products */,
+				7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */,
 			);
-			sourceTree = "<group>";
-		};
-		7BF48FC62B7D392A00332557 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7BF48FC72B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXGroup;
 			children = (
-				7BF48FC82B7D392A00332557 /* AppDelegate.swift */,
-				7BF48FCA2B7D392A00332557 /* SceneDelegate.swift */,
-				7BF48FCC2B7D392A00332557 /* ViewController.swift */,
-				7BF48FCE2B7D392A00332557 /* Main.storyboard */,
-				7BF48FD12B7D392C00332557 /* Assets.xcassets */,
-				7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */,
+				52A025E22B98B57500ECCDED /* Models */,
+				7BE636512B7D628700606A70 /* AppDelegate */,
+				7BE636532B7D62C100606A70 /* Extentons */,
+				7BE636502B7D627C00606A70 /* Screens */,
+				7B87D5602B921E5E001936C7 /* PrayerTimes */,
+				7BE636522B7D629800606A70 /* Assets */,
+				52A025E92B98B6A700ECCDED /* Ochish.mp3 */,
+				52A025EA2B98B6A700ECCDED /* Yopish.mp3 */,
 				7BF48FD62B7D392C00332557 /* Info.plist */,
 			);
 			path = "Ramazon Taqvimi 2024";
@@ -69,11 +191,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7B47A5B02B890C3C00B3B159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7BF48FC42B7D392A00332557 /* Ramazon Taqvimi 2024 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF48FD92B7D392C00332557 /* Build configuration list for PBXNativeTarget "Ramazon Taqvimi 2024" */;
 			buildPhases = (
+				7B47A5B02B890C3C00B3B159 /* Headers */,
 				7BF48FC12B7D392A00332557 /* Sources */,
 				7BF48FC22B7D392A00332557 /* Frameworks */,
 				7BF48FC32B7D392A00332557 /* Resources */,
@@ -84,7 +217,7 @@
 			);
 			name = "Ramazon Taqvimi 2024";
 			productName = "Ramazon Taqvimi 2024";
-			productReference = 7BF48FC52B7D392A00332557 /* Ramazon Taqvimi 2024.app */;
+			productReference = 7B468E272B92D98100FE3E67 /* Ramazon Taqvimi 2024.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +244,7 @@
 				Base,
 			);
 			mainGroup = 7BF48FBC2B7D392A00332557;
-			productRefGroup = 7BF48FC62B7D392A00332557 /* Products */;
+			productRefGroup = 7BF48FBC2B7D392A00332557;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,9 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A025EC2B98B6A700ECCDED /* Yopish.mp3 in Resources */,
 				7BF48FD52B7D392C00332557 /* LaunchScreen.storyboard in Resources */,
+				52A025EB2B98B6A700ECCDED /* Ochish.mp3 in Resources */,
 				7BF48FD22B7D392C00332557 /* Assets.xcassets in Resources */,
-				7BF48FD02B7D392A00332557 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +272,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF48FCD2B7D392A00332557 /* ViewController.swift in Sources */,
+				7B468E4C2B93934F00FE3E67 /* PrayTimeView.swift in Sources */,
+				52A025E62B98B5D100ECCDED /* DuaCell.swift in Sources */,
+				7BE636572B7D635300606A70 /* UIView.swift in Sources */,
+				7BF48FCD2B7D392A00332557 /* MainViewController.swift in Sources */,
+				7BE636552B7D62DA00606A70 /* UIColor.swift in Sources */,
+				7B9F0DFF2B983E34006E5D53 /* DaysHeader.swift in Sources */,
+				7B9F0DFD2B983E1A006E5D53 /* DaysCell.swift in Sources */,
+				52A025E42B98B58B00ECCDED /* NamozVaqtlariModel.swift in Sources */,
+				7BE6365A2B7D648200606A70 /* MainView.swift in Sources */,
 				7BF48FC92B7D392A00332557 /* AppDelegate.swift in Sources */,
-				7BF48FCB2B7D392A00332557 /* SceneDelegate.swift in Sources */,
+				7B87D5642B921E9B001936C7 /* PrayerTime.swift in Sources */,
+				7B9F0DFB2B983DF6006E5D53 /* DaysViewController.swift in Sources */,
+				7B468E592B966C6F00FE3E67 /* CircularProgressView.swift in Sources */,
+				52A025E82B98B5D700ECCDED /* DuaViewConroller.swift in Sources */,
+				7B04ADCF2B7E98D500589107 /* OpenAndCloseView.swift in Sources */,
+				7BEC83C72B8A7BEF00EBE1CA /* TasbehViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7BF48FCE2B7D392A00332557 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BF48FCF2B7D392A00332557 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7BF48FD32B7D392C00332557 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,20 +431,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				DEVELOPMENT_TEAM = TQSNA6F56L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ramazon Taqvimi";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
+				PRODUCT_BUNDLE_IDENTIFIER = AssA.AssA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,20 +462,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
+				DEVELOPMENT_TEAM = TQSNA6F56L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ramazon Taqvimi 2024/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ramazon Taqvimi";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ummat-Yolida.Ramazon-Taqvimi-2024";
+				PRODUCT_BUNDLE_IDENTIFIER = AssA.AssA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
